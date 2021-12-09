@@ -1,0 +1,16 @@
+protoc:
+  version: 3.11.0
+lint:
+  group: uber2
+  file_header:
+    path: ../LICENSE
+generate:
+  go_options:
+    import_path: github.com/mongorpc/mongorpc/proto
+  plugins:
+    - name: go
+      type: go
+      flags: plugins=grpc
+      output: ../
+    # - name: java
+    #   output: ../pb/java
