@@ -7,10 +7,3 @@ lint:
 generate:
   go_options:
     import_path: github.com/mongorpc/mongorpc/proto
-  plugins:
-    - name: go
-      type: go
-      flags: plugins=grpc
-      output: ../
-    # - name: java
-    #   output: ../pb/java
