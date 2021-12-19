@@ -18,3 +18,13 @@ dist/
 .DS_Store
 .envoy
 examples/
+
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+DerivedData/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+/.swiftpm
+Package.resolved
